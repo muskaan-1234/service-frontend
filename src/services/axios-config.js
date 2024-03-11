@@ -1,6 +1,7 @@
 import axios from "axios";
 
-let baseURL = "http://localhost:2006";
+// let baseURL = "http://localhost:2006";
+let baseURL="https://service-backend-m9xm.onrender.com";
 
 const publicReq=axios.create({baseURL,});
 
