@@ -11,22 +11,22 @@ const OurServices = () => {
   const services = [
     {
       title: 'Plumbing Services',
-      image: 'http://localhost:2006/pics/plumber.jpg',
+      image: 'https://service-backend-m9xm.onrender.com/pics/plumber.jpg',
       description: 'Professional plumbers offering reliable and efficient plumbing solutions for your home or business.',
     },
     {
       title: 'Electrician Services',
-      image: 'http://localhost:2006/pics/electrician.jpg',
+      image: 'https://service-backend-m9xm.onrender.com/pics/electrician.jpg',
       description: 'Skilled electricians providing comprehensive electrical repair and installation services.',
     },
     {
       title: 'Carpentry Services',
-      image: 'http://localhost:2006/pics/carpenter.jpg',
+      image: 'https://service-backend-m9xm.onrender.com/pics/carpenter.jpg',
       description: 'Experienced carpenters delivering high-quality carpentry services for various projects.',
     },
     {
       title: 'Painting Services',
-      image: 'http://localhost:2006/pics/painter.jpg',
+      image: 'https://service-backend-m9xm.onrender.com/pics/painter.jpg',
       description: 'Professional painters enhancing the aesthetics of your space with top-notch painting services.',
     },
   ];

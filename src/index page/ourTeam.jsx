@@ -43,19 +43,20 @@ const OurTeam = () => {
       <div style={teamStyle}>
         <div style={memberStyle}>
           <img
-            src="http://localhost:2006/pics/profile.png" 
+            src="https://service-backend-m9xm.onrender.com/pics/myself.jpeg" 
             alt="Developer"
             style={imageStyle}
           />
-          <h4>Chinar Singla</h4>
+          <h4>Muskaan Chauhan</h4>
           <p>Full Stack Developer</p>
           <p>Developer of Website</p>
+          <p>muskaan.in2808@gmail.com</p>
         </div>
 
         {/* Guide */}
         <div style={memberStyle}>
           <img
-            src="http://localhost:2006/pics/sir.jpeg" 
+            src="https://service-backend-m9xm.onrender.com/pics/sir.jpeg" 
             alt="Guide"
             style={imageStyle}
           />

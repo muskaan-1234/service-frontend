@@ -84,7 +84,7 @@ const doLogin = async () => {
   alert("Please Enter Password");
   return;
  }
-  const url = "http://localhost:2006/user/login";
+  const url = "https://service-backend-m9xm.onrender.com/user/login";
   const loginData = ({
     email: email,
     pwd: pwd,
