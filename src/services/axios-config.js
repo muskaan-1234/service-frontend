@@ -5,12 +5,7 @@ let baseURL="https://service-backend-m9xm.onrender.com";
 
 const publicReq=axios.create({baseURL,});
 
-const privateReq = axios.create({
-    baseURL,
-    withCredentials: true,
-
-});
-
+const privateReq=axios.create({baseURL,});
 
 const imageUpload = axios.create({baseURL,});
 

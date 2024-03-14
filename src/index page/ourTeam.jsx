@@ -47,10 +47,9 @@ const OurTeam = () => {
             alt="Developer"
             style={imageStyle}
           />
-          <h4>Muskaan Chauhan</h4>
+          <h4>Chinar Singla</h4>
           <p>Full Stack Developer</p>
           <p>Developer of Website</p>
-          <p>muskaan.in2808@gmail.com</p>
         </div>
 
         {/* Guide */}

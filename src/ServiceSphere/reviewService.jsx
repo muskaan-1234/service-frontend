@@ -11,7 +11,7 @@ function ReviewService() {
 
   const fetchReq = async () => {
     try {
-      const url = "https://service-backend-m9xm.onrender.com/service/fetchReq";
+      const url = "http://localhost:2006/service/fetchReq";
       const resp = await axios.post(url, { "email": localStorage.getItem("active_user_email") });
 
       if (resp.data.status) {

@@ -20,7 +20,7 @@ function ProfileForm() {
   }
 
   var chkEmail= async () =>  {
-    const url = "https://service-backend-m9xm.onrender.com/service/checkEmail";
+    const url = "http://localhost:2006/service/checkEmail";
     const data =({
       email: obj.email,
     });
@@ -75,7 +75,7 @@ React.useEffect(() => {
         'content-type': 'multipart/form-data'
       }
     }
-    const url = "https://service-backend-m9xm.onrender.com/service/serviceProfileSubmit";
+    const url = "http://localhost:2006/service/serviceProfileSubmit";
     var formData=new FormData();
     for(var x in obj)
       {
@@ -95,7 +95,7 @@ React.useEffect(() => {
         'content-type': 'multipart/form-data'
       }
     }
-    const url = "https://service-backend-m9xm.onrender.com/service/serviceProfileUpdate";
+    const url = "http://localhost:2006/service/serviceProfileUpdate";
     var formData=new FormData();
     for(var x in obj)
       {

@@ -22,7 +22,7 @@ React.useEffect(()=>{
   return (
     <Navbar  collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand onClick={()=>{navigate("/")}}>Servant Sniffers</Navbar.Brand>
+        <Navbar.Brand onClick={()=>{navigate("/")}}>Servant Finder</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

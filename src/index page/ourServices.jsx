@@ -11,22 +11,22 @@ const OurServices = () => {
   const services = [
     {
       title: 'Plumbing Services',
-      image:'https://thearchitectsdiary.com/wp-content/uploads/2022/02/Guest-Article-1-scaled.jpg',
-      description: 'Professional plumbers offering reliable plumbing solutions for your home or business.',
+      image: 'https://service-backend-m9xm.onrender.com/pics/plumber.jpg',
+      description: 'Professional plumbers offering reliable and efficient plumbing solutions for your home or business.',
     },
     {
       title: 'Electrician Services',
-      image: 'https://theconsumersfeedback.com/wp-content/uploads/2022/03/Electrical.jpg',
+      image: 'https://service-backend-m9xm.onrender.com/pics/electrician.jpg',
       description: 'Skilled electricians providing comprehensive electrical repair and installation services.',
     },
     {
       title: 'Carpentry Services',
-      image:'https://media.istockphoto.com/id/858298592/photo/carpenter-at-work.jpg?s=612x612&w=0&k=20&c=OaKGgvWWQvkntMx7Ue1b7dFw_CM9vPRu_lNn4j2abnY=',
+      image: 'https://service-backend-m9xm.onrender.com/pics/carpenter.jpg',
       description: 'Experienced carpenters delivering high-quality carpentry services for various projects.',
     },
     {
       title: 'Painting Services',
-      image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQg8X57kxEovJfkgyke-l3QuQ-f_y-fTwBA&usqp=CAU',
+      image: 'https://service-backend-m9xm.onrender.com/pics/painter.jpg',
       description: 'Professional painters enhancing the aesthetics of your space with top-notch painting services.',
     },
   ];

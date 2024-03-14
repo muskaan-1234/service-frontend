@@ -57,7 +57,7 @@ function ProfileForm() {
   }, [obj.email]);
 
 var chkEmail= async () =>  {
-          const url = "https://service-backend-m9xm.onrender.com/client/checkEmail";
+          const url = "http://localhost:2006/client/checkEmail";
           const data =({
             email: obj.email,
           });
@@ -77,8 +77,8 @@ var chkEmail= async () =>  {
                   ppic: resp.data.ppic, 
                   ipic: resp.data.ipic   
                 });
-                setSrc1("https://service-backend-m9xm.onrender.com/uploads/"+resp.data.ppic);
-                setSrc2("https://service-backend-m9xm.onrender.com/uploads/"+resp.data.ipic);
+                setSrc1("http://localhost:2006/uploads/"+resp.data.ppic);
+                setSrc2("http://localhost:2006/uploads/"+resp.data.ipic);
             }
             else {
               setDisplay1("block");
@@ -97,7 +97,7 @@ var chkEmail= async () =>  {
         'content-type': 'multipart/form-data'
       }
     }
-    const url = "https://service-backend-m9xm.onrender.com/client/clientProfileUpdate";
+    const url = "http://localhost:2006/client/clientProfileUpdate";
     var formData=new FormData();
     for(var x in obj)
       {

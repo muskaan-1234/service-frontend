@@ -21,7 +21,7 @@ function PostRequestClient() {
   },[])
 
   var doPost=async()=>{
-    var url ="https://service-backend-m9xm.onrender.com/client/postServantRequest";
+    var url ="http://localhost:2006/client/postServantRequest";
     var resp = await axios.post(url,obj);
     alert((resp.data));
   }
