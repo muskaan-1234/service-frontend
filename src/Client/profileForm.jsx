@@ -57,7 +57,7 @@ function ProfileForm() {
   }, [obj.email]);
 
 var chkEmail= async () =>  {
-          const url = "http://localhost:2006/client/checkEmail";
+          const url = "https://service-backend-m9xm.onrender.com/client/checkEmail";
           const data =({
             email: obj.email,
           });
