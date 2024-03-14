@@ -12,7 +12,7 @@ function NavBar({ onLogin }) {
   return (
     <Navbar  collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/">Servant Finder</Navbar.Brand>
+        <Navbar.Brand href="/">Servant Sniffers</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

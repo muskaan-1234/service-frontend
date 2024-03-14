@@ -33,7 +33,7 @@ function ProfileForm() {
         'content-type': 'multipart/form-data'
       }
     }
-    const url = "http://localhost:2006/client/clientProfileSubmit";
+    const url = "https://service-backend-m9xm.onrender.com/client/clientProfileSubmit";
     var formData=new FormData();
     for(var x in obj)
       {
@@ -57,7 +57,7 @@ function ProfileForm() {
   }, [obj.email]);
 
 var chkEmail= async () =>  {
-          const url = "http://localhost:2006/client/checkEmail";
+          const url = "https://service-backend-m9xm.onrender.com/client/checkEmail";
           const data =({
             email: obj.email,
           });
@@ -97,7 +97,7 @@ var chkEmail= async () =>  {
         'content-type': 'multipart/form-data'
       }
     }
-    const url = "http://localhost:2006/client/clientProfileUpdate";
+    const url = "https://service-backend-m9xm.onrender.com/client/clientProfileUpdate";
     var formData=new FormData();
     for(var x in obj)
       {

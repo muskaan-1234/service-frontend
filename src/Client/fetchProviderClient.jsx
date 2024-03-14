@@ -37,7 +37,7 @@ function FetchProviderClient() {
       alert("Choose City First!...");
        return;
     }
-    var url = "http://localhost:2006/client/fetchServant";
+    var url = "https://service-backend-m9xm.onrender.com/client/fetchServant";
     var response = await axios.post(url, obj);
     if(response.data.length===0)
     {
@@ -49,7 +49,7 @@ function FetchProviderClient() {
 
   const fetchRecords = async () => {
     try {
-      const response = await axios.post("http://localhost:2006/client/fetchProvider");
+      const response = await axios.post("https://service-backend-m9xm.onrender.com/client/fetchProvider");
       const data = response.data;  
       const uniqueCities = Array.from(new Set(data.map(item => item.city)));
       const uniqueCategories = Array.from(new Set(data.map(item => item.category)));
@@ -96,7 +96,7 @@ function FetchProviderClient() {
           {fetchedData.map(data => (
             <Col key={data._id} xs={12} md={6} lg={3}>
               <Card style={{ marginBottom: '20px' }}>
-                <Card.Img variant="top" src="http://localhost:2006/pics/profile.png" width={"100%"} height={"auto"} />
+                <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/profile.png" width={"100%"} height={"auto"} />
                 <Card.Body>
                   <Card.Title><center>{data.name}</center></Card.Title>
                   <Card.Subtitle className="mb-2 text-muted"><b>Mobile: </b>{data.mobile}</Card.Subtitle>
