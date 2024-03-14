@@ -14,7 +14,7 @@ function ViewProfileClient() {
 
   const getRecord = async () => {
     try {
-      var url = "http://localhost:2006/client/getRecordServant";
+      var url = "https://service-backend-m9xm.onrender.com/client/getRecordServant";
       var response = await axios.post(url, { "email": email });
       setServantData(response.data);
     } catch (error) {

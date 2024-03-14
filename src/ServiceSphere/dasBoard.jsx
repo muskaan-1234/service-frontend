@@ -22,7 +22,7 @@ var doLogout=()=>{
         <center>
         <div style={{display: 'flex',flexDirection: 'row',marginLeft:"15%",gap:'5%'}}>
         <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/profile.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/profile.png" />
       <Card.Body>
         <Card.Title>Profile-Management</Card.Title>
         <Button variant="primary" onClick={()=>{navigate('/profileService')}}>Manage</Button>
@@ -30,7 +30,7 @@ var doLogout=()=>{
     </Card>
     {/* ============================================================== */}
     <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/review.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/review.png" />
       <Card.Body>
         <Card.Title>Servants Request</Card.Title>
         <Button variant="primary" onClick={()=>{navigate('/reviewService')}}>Review</Button>
@@ -50,7 +50,7 @@ var doLogout=()=>{
     </Card> */}
     {/* ============================================================== */}
     <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/logout.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/logout.png" />
       <Card.Body>
         <Card.Title>Log-Out</Card.Title>
         <Button variant="primary" onClick={doLogout}>Logout</Button>

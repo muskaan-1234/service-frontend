@@ -9,7 +9,7 @@ React.useEffect(()=>{
 },[]);
   const fetchProviders = async () => {
     try {
-      const response = await axios.post("http://localhost:2006/admin/fetchProviders");
+      const response = await axios.post("https://service-backend-m9xm.onrender.com/admin/fetchProviders");
       setUsers((response.data));
     } catch (error) {
       console.error("Error fetching users:", error);

@@ -10,7 +10,7 @@ React.useEffect(()=>{
 },[]);
   const fetchUser = async () => {
     try {
-      const response = await axios.post("http://localhost:2006/admin/fetchUsers");
+      const response = await axios.post("https://service-backend-m9xm.onrender.com/admin/fetchUsers");
       setUsers(response.data);
     } catch (error) {
       console.error("Error fetching users:", error);
@@ -19,7 +19,7 @@ React.useEffect(()=>{
 
   var BlockUser=async(email)=>{
     try {
-      const response = await axios.post("http://localhost:2006/admin/blockUser",{"email":email});
+      const response = await axios.post("https://service-backend-m9xm.onrender.com/admin/blockUser",{"email":email});
       alert(response.data);
     } catch (error) {
       console.error("Error Blocking users:", error);
@@ -29,7 +29,7 @@ React.useEffect(()=>{
 
   var ResumeUser=async(email)=>{
     try {
-      const response = await axios.post("http://localhost:2006/admin/resumeUser",{"email":email});
+      const response = await axios.post("https://service-backend-m9xm.onrender.com/admin/resumeUser",{"email":email});
       alert(response.data);
     } catch (error) {
       console.error("Error Resuming users:", error);

@@ -97,7 +97,7 @@ var chkEmail= async () =>  {
         'content-type': 'multipart/form-data'
       }
     }
-    const url = "http://localhost:2006/client/clientProfileUpdate";
+    const url = "https://service-backend-m9xm.onrender.com/client/clientProfileUpdate";
     var formData=new FormData();
     for(var x in obj)
       {

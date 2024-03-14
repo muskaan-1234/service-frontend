@@ -29,7 +29,7 @@ var doLogout=()=>{
         <center>
         <div style={{display: 'flex',flexDirection: 'row',marginLeft:"5%",gap:'5%'}}>
         <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/profile.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/profile.png" />
       <Card.Body>
         <Card.Title>Profile-Management</Card.Title>
         <Button variant="primary" onClick={()=>{navigate('/profileSeeker')}}>Manage</Button>
@@ -37,7 +37,7 @@ var doLogout=()=>{
     </Card>
     {/* ============================================================== */}
     <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/servant.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/servant.png" />
       <Card.Body>
         <Card.Title>Servant Requirement</Card.Title>
         <Button variant="primary" onClick={()=>{navigate('/postRequestSeeker')}}>Post Request</Button>
@@ -45,7 +45,7 @@ var doLogout=()=>{
     </Card>
     {/* ============================================================== */}
     <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/searchProvider.jpeg" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/searchProvider.jpeg" />
       <Card.Body>
         <Card.Title>Search Servant</Card.Title>
         <Button variant="primary" onClick={()=>{navigate('/fetchProviderSeeker')}}>Search</Button>
@@ -53,7 +53,7 @@ var doLogout=()=>{
     </Card>
     {/* ============================================================== */}
     <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/logout.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/logout.png" />
       <Card.Body>
         <Card.Title>Log-Out</Card.Title>
         <Button variant="primary" onClick={doLogout}>Logout</Button>

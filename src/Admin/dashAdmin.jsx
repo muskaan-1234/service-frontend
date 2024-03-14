@@ -30,7 +30,7 @@ var doLogout=()=>{
         <center>
         <div style={{display: 'flex',flexDirection: 'row',marginLeft:"5%",gap:'5%'}}>
         <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/users.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/users.png" />
       <Card.Body>
         <Card.Title>User-Management</Card.Title>
         <Button variant="primary" onClick={()=>{navigate('/userAdmin')}}>Manage</Button>
@@ -38,7 +38,7 @@ var doLogout=()=>{
     </Card>
     {/* ============================================================== */}
     <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/provider.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/provider.png" />
       <Card.Body>
         <Card.Title>Service-Providers</Card.Title>
         <Button variant="primary" onClick={()=>{navigate('/providerAdmin')}}>Info</Button>
@@ -46,7 +46,7 @@ var doLogout=()=>{
     </Card>
     {/* ============================================================== */}
     <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/seeker.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/seeker.png" />
       <Card.Body>
         <Card.Title>Service Seekers</Card.Title>
         <Button variant="primary" onClick={()=>{navigate('/seekerAdmin')}}>Details</Button>
@@ -54,7 +54,7 @@ var doLogout=()=>{
     </Card>
     {/* ============================================================== */}
     <Card style={{ width: '18rem',float: 'left' }}>
-      <Card.Img variant="top" src="http://localhost:2006/pics/logout.png" />
+      <Card.Img variant="top" src="https://service-backend-m9xm.onrender.com/pics/logout.png" />
       <Card.Body>
         <Card.Title>Log-Out</Card.Title>
         <Button variant="primary" onClick={doLogout}>Logout</Button>
