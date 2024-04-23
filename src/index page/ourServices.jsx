@@ -26,7 +26,7 @@ const OurServices = () => {
     },
     {
       title: 'Painting Services',
-      image: 'https://service-backend-m9xm.onrender.com/pics/painter.jpg',
+      image: 'https://images.jdmagicbox.com/comp/chandigarh/c2/0172px172.x172.230523103615.t4c2/catalogue/xrg923epezwzkw9-akp0sxcbqe-250.jpg?clr=',
       description: 'Professional painters enhancing the aesthetics of your space with top-notch painting services.',
     },
   ];

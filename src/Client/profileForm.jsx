@@ -77,8 +77,8 @@ var chkEmail= async () =>  {
                   ppic: resp.data.ppic, 
                   ipic: resp.data.ipic   
                 });
-                setSrc1("https://service-backend-m9xm.onrender.com/uploads/"+resp.data.ppic);
-                setSrc2("https://service-backend-m9xm.onrender.com/uploads/"+resp.data.ipic);
+                setSrc1("http://localhost:2006/uploads/"+resp.data.ppic);
+                setSrc2("http://localhost:2006/uploads/"+resp.data.ipic);
             }
             else {
               setDisplay1("block");
